@@ -2,8 +2,9 @@ api = uevr.api
 local vr = uevr.params.vr
 
 -- Weapon offset configuration
-local weapon_location_offset = Vector3f.new(1.9078741073608398, -2.1786863803863525, 11.48326301574707)
-local weapon_rotation_offset = Vector3f.new(0.0, 0.0, 0.0)
+--local weapon_location_offset = Vector3f.new(1.9078741073608398, -2.1786863803863525, 11.48326301574707)
+local weapon_location_offset = Vector3f.new(0.0, 0.0, 0.0)
+local weapon_rotation_offset = Vector3f.new(0.5, 3.3, 0.0)
 
 local function hide_Mesh(name)
     if name then
